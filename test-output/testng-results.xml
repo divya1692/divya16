@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Searched Flight Page is dispalyed ]]>
+    </line>
+    <line>
+      <![CDATA[Booked the flight ]]>
+    </line>
+    <line>
+      <![CDATA[Traveller details entered]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="115915" started-at="2017-08-06T19:33:45Z" finished-at="2017-08-06T19:35:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="115915" started-at="2017-08-06T19:33:45Z" finished-at="2017-08-06T19:35:41Z">
+      <class name="testcaseClearTrip.ClearTripScenario">
+        <test-method status="PASS" signature="first()[pri:0, instance:testcaseClearTrip.ClearTripScenario@19963d8]" name="first" is-config="true" duration-ms="24884" started-at="2017-08-07T01:03:45Z" finished-at="2017-08-07T01:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="Registration()[pri:0, instance:testcaseClearTrip.ClearTripScenario@19963d8]" name="Registration" duration-ms="85668" started-at="2017-08-07T01:04:10Z" finished-at="2017-08-07T01:05:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Searched Flight Page is dispalyed ]]>
+            </line>
+            <line>
+              <![CDATA[Booked the flight ]]>
+            </line>
+            <line>
+              <![CDATA[Traveller details entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="last()[pri:0, instance:testcaseClearTrip.ClearTripScenario@19963d8]" name="last" is-config="true" duration-ms="5331" started-at="2017-08-07T01:05:36Z" finished-at="2017-08-07T01:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- testcaseClearTrip.ClearTripScenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

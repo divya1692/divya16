@@ -1,4 +1,4 @@
-package scenarioClearTrip;
+package testcaseClearTrip;
 
 import java.io.File;
 import java.io.IOException;
@@ -154,7 +154,7 @@ public static WebDriver driver=null;
 				Select Titledropdown = new Select (Title_options);
 				Titledropdown.selectByValue("Ms");
 				
-/*		
+		
 try
 		 
 		{
@@ -181,16 +181,14 @@ try
 	 
 
 	 
-		}*/
-		
-		
-		
-		
+		}
+
 		File src4= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src4, new File("E:/ClearTrip/TravellerDetails.png"));
 		
 		SR.ContinueToPayment().click();
-		Thread.sleep(5000);
+		Thread.sleep(8000);
+		
 		File src5= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		 // now copy the  screenshot to desired location using copyFile //method
 		FileUtils.copyFile(src5, new File("E:/ClearTrip/Payment.png"));
