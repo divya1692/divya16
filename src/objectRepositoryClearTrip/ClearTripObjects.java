@@ -21,5 +21,13 @@ public class ClearTripObjects {
 		
 		By Book_Button = By.xpath("(//button[@type='submit'])[4]");
 		
-
+		//Itinerary Page
+		
+		By  Checkbox_Condition = By.xpath("//dd//div//input[@type='checkbox']");
+		By  Confirm_booking_button = By.xpath("//input[@value='Continue booking']");
+		
+	//EmailAddress Page
+		
+		By EmailAddress =By.xpath("//input[@etitle='Your email address']");
+		By Continue_Button =By.xpath("(//input[@value='Continue'])[1]");
 }
